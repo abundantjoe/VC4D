@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ink9face"
+version = "0.1.0"
+description = "Face (layer order), depth convention and exact geometry-only labels for 8-9 um ink detection on Vesuvius Challenge tifxyz meshes"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.9"
+dependencies = ["numpy", "scipy", "tifffile", "requests"]
+
+[project.optional-dependencies]
+figs = ["matplotlib"]
+dev = ["pytest>=7"]
+
+[project.scripts]
+ink9face = "ink9face.cli:main"
+
+[tool.setuptools]
+packages = ["ink9face"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

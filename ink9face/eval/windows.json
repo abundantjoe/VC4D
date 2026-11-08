@@ -1,0 +1,1688 @@
+{
+ "description": "The 99 public evaluation windows: segment id, crop (r0, c0, rows, cols) in coarse-mesh grid cells, scroll axis (x, y) for the toward-axis rule, and the organizer label tif the label is transferred from.",
+ "windows": [
+  {
+   "w": "20250611132918-z_dbg_gen_00302_inp_hr_w0",
+   "scroll": "PHerc0500P2",
+   "seg": "20250611132918-z_dbg_gen_00302_inp_hr",
+   "crop": [
+    152,
+    10,
+    53,
+    53
+   ],
+   "axis_xy": [
+    1730.95397381045,
+    1798.3290548424739
+   ],
+   "toward_axis_is_reversed": false,
+   "label_tif": "PHerc0500P2-20250611132918-2.215um-0.4m-111keV-volume-20250526151718-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250611133823-z_dbg_gen_00130_inp_hr_w0",
+   "scroll": "PHerc0500P2",
+   "seg": "20250611133823-z_dbg_gen_00130_inp_hr",
+   "crop": [
+    158,
+    11,
+    53,
+    53
+   ],
+   "axis_xy": [
+    1696.908510638298,
+    1793.763829787234
+   ],
+   "toward_axis_is_reversed": false,
+   "label_tif": "PHerc0500P2-20250611133823-2.215um-0.4m-111keV-volume-20250526151718-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250611134135-z_dbg_gen_00331_inp_hr_w0",
+   "scroll": "PHerc0500P2",
+   "seg": "20250611134135-z_dbg_gen_00331_inp_hr",
+   "crop": [
+    206,
+    89,
+    53,
+    53
+   ],
+   "axis_xy": [
+    1731.80187416332,
+    1859.5983935742972
+   ],
+   "toward_axis_is_reversed": false,
+   "label_tif": "PHerc0500P2-20250611134135-2.215um-0.4m-111keV-volume-20250526151718-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250611153346-z_dbg_gen_00286_inp_hr_w0",
+   "scroll": "PHerc0500P2",
+   "seg": "20250611153346-z_dbg_gen_00286_inp_hr",
+   "crop": [
+    47,
+    47,
+    53,
+    53
+   ],
+   "axis_xy": [
+    1791.069615069615,
+    1746.2866502866502
+   ],
+   "toward_axis_is_reversed": true,
+   "label_tif": "PHerc0500P2-20250611153346-2.215um-0.4m-111keV-volume-20250526151718-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250611153347-z_dbg_gen_00105_inp_hr_w0",
+   "scroll": "PHerc0500P2",
+   "seg": "20250611153347-z_dbg_gen_00105_inp_hr",
+   "crop": [
+    93,
+    18,
+    53,
+    53
+   ],
+   "axis_xy": [
+    1802.066817516305,
+    1786.4203380806603
+   ],
+   "toward_axis_is_reversed": true,
+   "label_tif": "PHerc0500P2-20250611153347-2.215um-0.4m-111keV-volume-20250526151718-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250611154256-z_dbg_gen_00354_inp_hr_w0",
+   "scroll": "PHerc0500P2",
+   "seg": "20250611154256-z_dbg_gen_00354_inp_hr",
+   "crop": [
+    166,
+    73,
+    53,
+    53
+   ],
+   "axis_xy": [
+    1695.5021856518385,
+    1807.446644381589
+   ],
+   "toward_axis_is_reversed": true,
+   "label_tif": "PHerc0500P2-20250611154256-2.215um-0.4m-111keV-volume-20250526151718-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250611161023-z_dbg_gen_00205_inp_hr_w0",
+   "scroll": "PHerc0500P2",
+   "seg": "20250611161023-z_dbg_gen_00205_inp_hr",
+   "crop": [
+    202,
+    14,
+    53,
+    53
+   ],
+   "axis_xy": [
+    1733.678313600924,
+    1879.263066705169
+   ],
+   "toward_axis_is_reversed": false,
+   "label_tif": "PHerc0500P2-20250611161023-2.215um-0.4m-111keV-volume-20250526151718-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250611161415-z_dbg_gen_00411_inp_hr_w0",
+   "scroll": "PHerc0500P2",
+   "seg": "20250611161415-z_dbg_gen_00411_inp_hr",
+   "crop": [
+    63,
+    23,
+    53,
+    53
+   ],
+   "axis_xy": [
+    1789.7158595363783,
+    1722.4438834060134
+   ],
+   "toward_axis_is_reversed": true,
+   "label_tif": "PHerc0500P2-20250611161415-2.215um-0.4m-111keV-volume-20250526151718-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250611171318-z_dbg_gen_00440_inp_hr_w0",
+   "scroll": "PHerc0500P2",
+   "seg": "20250611171318-z_dbg_gen_00440_inp_hr",
+   "crop": [
+    35,
+    16,
+    53,
+    53
+   ],
+   "axis_xy": [
+    1784.050334889385,
+    1759.1621676476557
+   ],
+   "toward_axis_is_reversed": true,
+   "label_tif": "PHerc0500P2-20250611171318-2.215um-0.4m-111keV-volume-20250526151718-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250611171745-z_dbg_gen_00225_inp_hr_w0",
+   "scroll": "PHerc0500P2",
+   "seg": "20250611171745-z_dbg_gen_00225_inp_hr",
+   "crop": [
+    110,
+    25,
+    53,
+    53
+   ],
+   "axis_xy": [
+    1701.5554387808722,
+    1798.286915396742
+   ],
+   "toward_axis_is_reversed": false,
+   "label_tif": "PHerc0500P2-20250611171745-2.215um-0.4m-111keV-volume-20250526151718-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250611173014-z_dbg_gen_00506_inp_hr_w0",
+   "scroll": "PHerc0500P2",
+   "seg": "20250611173014-z_dbg_gen_00506_inp_hr",
+   "crop": [
+    24,
+    101,
+    53,
+    53
+   ],
+   "axis_xy": [
+    1873.9937866758717,
+    1610.9299275112185
+   ],
+   "toward_axis_is_reversed": false,
+   "label_tif": "PHerc0500P2-20250611173014-2.215um-0.4m-111keV-volume-20250526151718-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250628074500-500P2_front_w0",
+   "scroll": "PHerc0500P2",
+   "seg": "20250628074500-500P2_front",
+   "crop": [
+    150,
+    82,
+    53,
+    53
+   ],
+   "axis_xy": [
+    1742.5337432293954,
+    1764.8672229541794
+   ],
+   "toward_axis_is_reversed": false,
+   "label_tif": "PHerc0500P2-20250628074500-2.215um-0.4m-111keV-volume-20250526151718-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250716055227-z_dbg_gen_00260_inp_hr_w0",
+   "scroll": "PHerc0500P2",
+   "seg": "20250716055227-z_dbg_gen_00260_inp_hr",
+   "crop": [
+    19,
+    13,
+    53,
+    53
+   ],
+   "axis_xy": [
+    1732.4744100520993,
+    1760.1985902543672
+   ],
+   "toward_axis_is_reversed": false,
+   "label_tif": "PHerc0500P2-20250716055227-2.215um-0.4m-111keV-volume-20250526151718-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250716055228-z_dbg_gen_00333_inp_hr_w0",
+   "scroll": "PHerc0500P2",
+   "seg": "20250716055228-z_dbg_gen_00333_inp_hr",
+   "crop": [
+    21,
+    30,
+    53,
+    53
+   ],
+   "axis_xy": [
+    1814.7914211642706,
+    1707.0186189017204
+   ],
+   "toward_axis_is_reversed": false,
+   "label_tif": "PHerc0500P2-20250716055228-2.215um-0.4m-111keV-volume-20250526151718-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250716055229-z_dbg_gen_00371_inp_hr_w0",
+   "scroll": "PHerc0500P2",
+   "seg": "20250716055229-z_dbg_gen_00371_inp_hr",
+   "crop": [
+    65,
+    22,
+    53,
+    53
+   ],
+   "axis_xy": [
+    1776.0673751754562,
+    1761.572087427311
+   ],
+   "toward_axis_is_reversed": false,
+   "label_tif": "PHerc0500P2-20250716055229-2.215um-0.4m-111keV-volume-20250526151718-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250716055230-z_dbg_gen_00377_inp_hr_w0",
+   "scroll": "PHerc0500P2",
+   "seg": "20250716055230-z_dbg_gen_00377_inp_hr",
+   "crop": [
+    162,
+    15,
+    53,
+    53
+   ],
+   "axis_xy": [
+    1706.2086339173252,
+    1835.2218023588687
+   ],
+   "toward_axis_is_reversed": false,
+   "label_tif": "PHerc0500P2-20250716055230-2.215um-0.4m-111keV-volume-20250526151718-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250716055231-z_dbg_gen_00473_inp_hr_w0",
+   "scroll": "PHerc0500P2",
+   "seg": "20250716055231-z_dbg_gen_00473_inp_hr",
+   "crop": [
+    71,
+    82,
+    53,
+    53
+   ],
+   "axis_xy": [
+    1804.7904451682953,
+    1676.9554831704668
+   ],
+   "toward_axis_is_reversed": false,
+   "label_tif": "PHerc0500P2-20250716055231-2.215um-0.4m-111keV-volume-20250526151718-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250716055232-z_dbg_gen_00505_inp_hr_w0",
+   "scroll": "PHerc0500P2",
+   "seg": "20250716055232-z_dbg_gen_00505_inp_hr",
+   "crop": [
+    114,
+    51,
+    53,
+    53
+   ],
+   "axis_xy": [
+    1724.781623467329,
+    1760.8418438615552
+   ],
+   "toward_axis_is_reversed": true,
+   "label_tif": "PHerc0500P2-20250716055232-2.215um-0.4m-111keV-volume-20250526151718-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250716055233-z_dbg_gen_00565_inp_hr_w0",
+   "scroll": "PHerc0500P2",
+   "seg": "20250716055233-z_dbg_gen_00565_inp_hr",
+   "crop": [
+    101,
+    17,
+    53,
+    53
+   ],
+   "axis_xy": [
+    1802.576017130621,
+    1785.7173447537473
+   ],
+   "toward_axis_is_reversed": true,
+   "label_tif": "PHerc0500P2-20250716055233-2.215um-0.4m-111keV-volume-20250526151718-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250716055234-z_dbg_gen_00709_inp_hr_w0",
+   "scroll": "PHerc0500P2",
+   "seg": "20250716055234-z_dbg_gen_00709_inp_hr",
+   "crop": [
+    105,
+    39,
+    53,
+    53
+   ],
+   "axis_xy": [
+    1705.121201617562,
+    1831.9121894858463
+   ],
+   "toward_axis_is_reversed": false,
+   "label_tif": "PHerc0500P2-20250716055234-2.215um-0.4m-111keV-volume-20250526151718-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250716055235-z_dbg_gen_00779_inp_hr_w0",
+   "scroll": "PHerc0500P2",
+   "seg": "20250716055235-z_dbg_gen_00779_inp_hr",
+   "crop": [
+    160,
+    224,
+    53,
+    53
+   ],
+   "axis_xy": [
+    1732.387445887446,
+    1791.3181818181818
+   ],
+   "toward_axis_is_reversed": true,
+   "label_tif": "PHerc0500P2-20250716055235-2.215um-0.4m-111keV-volume-20250526151718-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250716055236-z_dbg_gen_00356_inp_hr_w0",
+   "scroll": "PHerc0500P2",
+   "seg": "20250716055236-z_dbg_gen_00356_inp_hr",
+   "crop": [
+    125,
+    23,
+    53,
+    53
+   ],
+   "axis_xy": [
+    1727.8096690559707,
+    1760.646637181638
+   ],
+   "toward_axis_is_reversed": false,
+   "label_tif": "PHerc0500P2-20250716055236-2.215um-0.4m-111keV-volume-20250526151718-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250825181859--1_w0",
+   "scroll": "PHerc0500P2",
+   "seg": "20250825181859--1",
+   "crop": [
+    158,
+    10,
+    53,
+    53
+   ],
+   "axis_xy": [
+    1805.9313131313131,
+    1784.8005387205387
+   ],
+   "toward_axis_is_reversed": false,
+   "label_tif": "PHerc0500P2-20250825181859-2.215um-0.4m-111keV-volume-20250526151718-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250825181907-0_w0",
+   "scroll": "PHerc0500P2",
+   "seg": "20250825181907-0",
+   "crop": [
+    125,
+    35,
+    53,
+    53
+   ],
+   "axis_xy": [
+    1738.2637294446167,
+    1755.5693453304375
+   ],
+   "toward_axis_is_reversed": false,
+   "label_tif": "PHerc0500P2-20250825181907-2.215um-0.4m-111keV-volume-20250526151718-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250825181917--2_w0",
+   "scroll": "PHerc0500P2",
+   "seg": "20250825181917--2",
+   "crop": [
+    39,
+    52,
+    53,
+    53
+   ],
+   "axis_xy": [
+    1871.7013480815763,
+    1613.6882129277567
+   ],
+   "toward_axis_is_reversed": false,
+   "label_tif": "PHerc0500P2-20250825181917-2.215um-0.4m-111keV-volume-20250526151718-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250825181922-1_w0",
+   "scroll": "PHerc0500P2",
+   "seg": "20250825181922-1",
+   "crop": [
+    50,
+    61,
+    53,
+    53
+   ],
+   "axis_xy": [
+    1870.9958158995817,
+    1615.26359832636
+   ],
+   "toward_axis_is_reversed": false,
+   "label_tif": "PHerc0500P2-20250825181922-2.215um-0.4m-111keV-volume-20250526151718-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250825181928-2_w0",
+   "scroll": "PHerc0500P2",
+   "seg": "20250825181928-2",
+   "crop": [
+    158,
+    84,
+    53,
+    53
+   ],
+   "axis_xy": [
+    1727.419074405523,
+    1800.932753771414
+   ],
+   "toward_axis_is_reversed": false,
+   "label_tif": "PHerc0500P2-20250825181928-2.215um-0.4m-111keV-volume-20250526151718-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250825181934-3_w0",
+   "scroll": "PHerc0500P2",
+   "seg": "20250825181934-3",
+   "crop": [
+    203,
+    32,
+    53,
+    53
+   ],
+   "axis_xy": [
+    1735.0236669518106,
+    1877.493013972056
+   ],
+   "toward_axis_is_reversed": false,
+   "label_tif": "PHerc0500P2-20250825181934-2.215um-0.4m-111keV-volume-20250526151718-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250825181939-4_w0",
+   "scroll": "PHerc0500P2",
+   "seg": "20250825181939-4",
+   "crop": [
+    143,
+    74,
+    53,
+    53
+   ],
+   "axis_xy": [
+    1730.2319749216301,
+    1786.4576802507836
+   ],
+   "toward_axis_is_reversed": false,
+   "label_tif": "PHerc0500P2-20250825181939-2.215um-0.4m-111keV-volume-20250526151718-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250925161630-auto_grown_20250925161630635_w0",
+   "scroll": "PHerc0814",
+   "seg": "20250925161630-auto_grown_20250925161630635",
+   "crop": [
+    121,
+    41,
+    53,
+    53
+   ],
+   "axis_xy": [
+    2982.435523348816,
+    3015.59681615819
+   ],
+   "toward_axis_is_reversed": true,
+   "label_tif": "PHerc0814-20250925161630-2.399um-0.22m-78keV-volume-20260309142202-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250925161630-auto_grown_20250925161630635_w1",
+   "scroll": "PHerc0814",
+   "seg": "20250925161630-auto_grown_20250925161630635",
+   "crop": [
+    100,
+    643,
+    53,
+    53
+   ],
+   "axis_xy": [
+    2858.195791126229,
+    3193.529847119949
+   ],
+   "toward_axis_is_reversed": true,
+   "label_tif": "PHerc0814-20250925161630-2.399um-0.22m-78keV-volume-20260309142202-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250925182632-auto_grown_20250925182632715_w0",
+   "scroll": "PHerc0814",
+   "seg": "20250925182632-auto_grown_20250925182632715",
+   "crop": [
+    80,
+    214,
+    53,
+    53
+   ],
+   "axis_xy": [
+    2790.9698167514152,
+    3207.461652115514
+   ],
+   "toward_axis_is_reversed": true,
+   "label_tif": "PHerc0814-20250925182632-2.399um-0.22m-78keV-volume-20260309142202-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250925182632-auto_grown_20250925182632715_w1",
+   "scroll": "PHerc0814",
+   "seg": "20250925182632-auto_grown_20250925182632715",
+   "crop": [
+    79,
+    859,
+    53,
+    53
+   ],
+   "axis_xy": [
+    2820.6222959847614,
+    3204.3522245063464
+   ],
+   "toward_axis_is_reversed": true,
+   "label_tif": "PHerc0814-20250925182632-2.399um-0.22m-78keV-volume-20260309142202-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250925212701-auto_grown_20250925212701145_w0",
+   "scroll": "PHerc0814",
+   "seg": "20250925212701-auto_grown_20250925212701145",
+   "crop": [
+    36,
+    149,
+    53,
+    53
+   ],
+   "axis_xy": [
+    2686.0833989693274,
+    3232.016562774265
+   ],
+   "toward_axis_is_reversed": true,
+   "label_tif": "PHerc0814-20250925212701-2.399um-0.22m-78keV-volume-20260309142202-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250925212701-auto_grown_20250925212701145_w1",
+   "scroll": "PHerc0814",
+   "seg": "20250925212701-auto_grown_20250925212701145",
+   "crop": [
+    12,
+    23,
+    53,
+    53
+   ],
+   "axis_xy": [
+    2672.5303192301817,
+    3134.0339086604554
+   ],
+   "toward_axis_is_reversed": true,
+   "label_tif": "PHerc0814-20250925212701-2.399um-0.22m-78keV-volume-20260309142202-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250926203608-auto_grown_20250926203608932_w0",
+   "scroll": "PHerc0814",
+   "seg": "20250926203608-auto_grown_20250926203608932",
+   "crop": [
+    81,
+    516,
+    53,
+    53
+   ],
+   "axis_xy": [
+    2735.683795771016,
+    3240.9633006704485
+   ],
+   "toward_axis_is_reversed": true,
+   "label_tif": "PHerc0814-20250926203608-2.399um-0.22m-78keV-volume-20260309142202-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250926203608-auto_grown_20250926203608932_w1",
+   "scroll": "PHerc0814",
+   "seg": "20250926203608-auto_grown_20250926203608932",
+   "crop": [
+    92,
+    956,
+    53,
+    53
+   ],
+   "axis_xy": [
+    2755.18544605663,
+    3230.5082208045724
+   ],
+   "toward_axis_is_reversed": true,
+   "label_tif": "PHerc0814-20250926203608-2.399um-0.22m-78keV-volume-20260309142202-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250929040153-auto_grown_20250929040153260_w0",
+   "scroll": "PHerc0814",
+   "seg": "20250929040153-auto_grown_20250929040153260",
+   "crop": [
+    85,
+    33,
+    53,
+    53
+   ],
+   "axis_xy": [
+    2851.8761297082874,
+    3196.1280616731847
+   ],
+   "toward_axis_is_reversed": true,
+   "label_tif": "PHerc0814-20250929040153-2.399um-0.22m-78keV-volume-20260309142202-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250929040153-auto_grown_20250929040153260_w1",
+   "scroll": "PHerc0814",
+   "seg": "20250929040153-auto_grown_20250929040153260",
+   "crop": [
+    79,
+    300,
+    53,
+    53
+   ],
+   "axis_xy": [
+    2815.7632001208162,
+    3204.983066845374
+   ],
+   "toward_axis_is_reversed": true,
+   "label_tif": "PHerc0814-20250929040153-2.399um-0.22m-78keV-volume-20260309142202-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250930083742-auto_grown_20250930083742882_w0",
+   "scroll": "PHerc0814",
+   "seg": "20250930083742-auto_grown_20250930083742882",
+   "crop": [
+    105,
+    428,
+    53,
+    53
+   ],
+   "axis_xy": [
+    2950.7432368296154,
+    3081.326321784528
+   ],
+   "toward_axis_is_reversed": true,
+   "label_tif": "PHerc0814-20250930083742-2.399um-0.22m-78keV-volume-20260309142202-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250930083742-auto_grown_20250930083742882_w1",
+   "scroll": "PHerc0814",
+   "seg": "20250930083742-auto_grown_20250930083742882",
+   "crop": [
+    23,
+    726,
+    53,
+    53
+   ],
+   "axis_xy": [
+    2654.542009592042,
+    2982.1957487121795
+   ],
+   "toward_axis_is_reversed": true,
+   "label_tif": "PHerc0814-20250930083742-2.399um-0.22m-78keV-volume-20260309142202-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20251001060526-auto_grown_20251001060526760_w0",
+   "scroll": "PHerc0814",
+   "seg": "20251001060526-auto_grown_20251001060526760",
+   "crop": [
+    161,
+    418,
+    53,
+    53
+   ],
+   "axis_xy": [
+    3023.4946861469357,
+    2761.668017319225
+   ],
+   "toward_axis_is_reversed": true,
+   "label_tif": "PHerc0814-20251001060526-2.399um-0.22m-78keV-volume-20260309142202-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20251001060526-auto_grown_20251001060526760_w1",
+   "scroll": "PHerc0814",
+   "seg": "20251001060526-auto_grown_20251001060526760",
+   "crop": [
+    13,
+    52,
+    53,
+    53
+   ],
+   "axis_xy": [
+    2661.4549764403205,
+    3002.763333622409
+   ],
+   "toward_axis_is_reversed": true,
+   "label_tif": "PHerc0814-20251001060526-2.399um-0.22m-78keV-volume-20260309142202-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250511003658-tifxyz_w0",
+   "scroll": "PHerc0343P",
+   "seg": "20250511003658-tifxyz",
+   "crop": [
+    95,
+    43,
+    53,
+    53
+   ],
+   "axis_xy": [
+    2518.444286728176,
+    2219.554293825408
+   ],
+   "toward_axis_is_reversed": false,
+   "label_tif": "PHerc0343P-20250511003658-2.215um-0.4m-111keV-volume-20260304131111-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250511003658-tifxyz_w1",
+   "scroll": "PHerc0343P",
+   "seg": "20250511003658-tifxyz",
+   "crop": [
+    11,
+    25,
+    53,
+    53
+   ],
+   "axis_xy": [
+    2660.76979132163,
+    2238.4975157336867
+   ],
+   "toward_axis_is_reversed": false,
+   "label_tif": "PHerc0343P-20250511003658-2.215um-0.4m-111keV-volume-20260304131111-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250902170435--5_b2_w0",
+   "scroll": "PHerc0343P",
+   "seg": "20250902170435--5_b2",
+   "crop": [
+    40,
+    18,
+    53,
+    53
+   ],
+   "axis_xy": [
+    2465.183666495814,
+    2148.472236459935
+   ],
+   "toward_axis_is_reversed": true,
+   "label_tif": "PHerc0343P-20250902170435-2.215um-0.4m-111keV-volume-20260304131111-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250902170441--4_b2_w0",
+   "scroll": "PHerc0343P",
+   "seg": "20250902170441--4_b2",
+   "crop": [
+    91,
+    62,
+    53,
+    53
+   ],
+   "axis_xy": [
+    2655.0173611111113,
+    2185.559027777778
+   ],
+   "toward_axis_is_reversed": true,
+   "label_tif": "PHerc0343P-20250902170441-2.215um-0.4m-111keV-volume-20260304131111-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250902170441--4_b2_w1",
+   "scroll": "PHerc0343P",
+   "seg": "20250902170441--4_b2",
+   "crop": [
+    27,
+    31,
+    53,
+    53
+   ],
+   "axis_xy": [
+    2490.8811524609846,
+    2191.370948379352
+   ],
+   "toward_axis_is_reversed": true,
+   "label_tif": "PHerc0343P-20250902170441-2.215um-0.4m-111keV-volume-20260304131111-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250902170447--3_b2_w0",
+   "scroll": "PHerc0343P",
+   "seg": "20250902170447--3_b2",
+   "crop": [
+    30,
+    29,
+    53,
+    53
+   ],
+   "axis_xy": [
+    2536.53542357552,
+    2202.766355140187
+   ],
+   "toward_axis_is_reversed": true,
+   "label_tif": "PHerc0343P-20250902170447-2.215um-0.4m-111keV-volume-20260304131111-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250902170447--3_b2_w1",
+   "scroll": "PHerc0343P",
+   "seg": "20250902170447--3_b2",
+   "crop": [
+    89,
+    43,
+    53,
+    53
+   ],
+   "axis_xy": [
+    2467.5881983678596,
+    2215.4777150031387
+   ],
+   "toward_axis_is_reversed": true,
+   "label_tif": "PHerc0343P-20250902170447-2.215um-0.4m-111keV-volume-20260304131111-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250902171202--2_b2_w0",
+   "scroll": "PHerc0343P",
+   "seg": "20250902171202--2_b2",
+   "crop": [
+    44,
+    1,
+    53,
+    53
+   ],
+   "axis_xy": [
+    2469.2102564102565,
+    2172.720512820513
+   ],
+   "toward_axis_is_reversed": true,
+   "label_tif": "PHerc0343P-20250902171202-2.215um-0.4m-111keV-volume-20260304131111-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250902171202--2_b2_w1",
+   "scroll": "PHerc0343P",
+   "seg": "20250902171202--2_b2",
+   "crop": [
+    99,
+    45,
+    53,
+    53
+   ],
+   "axis_xy": [
+    2683.5205957644866,
+    2173.858971375378
+   ],
+   "toward_axis_is_reversed": true,
+   "label_tif": "PHerc0343P-20250902171202-2.215um-0.4m-111keV-volume-20260304131111-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250902171204--1_b2_w0",
+   "scroll": "PHerc0343P",
+   "seg": "20250902171204--1_b2",
+   "crop": [
+    74,
+    13,
+    53,
+    53
+   ],
+   "axis_xy": [
+    2448.0025260498896,
+    2191.358383328071
+   ],
+   "toward_axis_is_reversed": true,
+   "label_tif": "PHerc0343P-20250902171204-2.215um-0.4m-111keV-volume-20260304131111-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250902171204--1_b2_w1",
+   "scroll": "PHerc0343P",
+   "seg": "20250902171204--1_b2",
+   "crop": [
+    11,
+    50,
+    53,
+    53
+   ],
+   "axis_xy": [
+    2612.7456097953923,
+    2229.127114548091
+   ],
+   "toward_axis_is_reversed": true,
+   "label_tif": "PHerc0343P-20250902171204-2.215um-0.4m-111keV-volume-20260304131111-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250904233748-0_b2_w0",
+   "scroll": "PHerc0343P",
+   "seg": "20250904233748-0_b2",
+   "crop": [
+    100,
+    65,
+    53,
+    53
+   ],
+   "axis_xy": [
+    2723.643211100099,
+    2168.9593657086225
+   ],
+   "toward_axis_is_reversed": true,
+   "label_tif": "PHerc0343P-20250904233748-2.215um-0.4m-111keV-volume-20260304131111-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250904233748-0_b2_w1",
+   "scroll": "PHerc0343P",
+   "seg": "20250904233748-0_b2",
+   "crop": [
+    22,
+    30,
+    53,
+    53
+   ],
+   "axis_xy": [
+    2594.6374185344143,
+    2223.186138928628
+   ],
+   "toward_axis_is_reversed": true,
+   "label_tif": "PHerc0343P-20250904233748-2.215um-0.4m-111keV-volume-20260304131111-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250905172054-1_b2_w0",
+   "scroll": "PHerc0343P",
+   "seg": "20250905172054-1_b2",
+   "crop": [
+    23,
+    40,
+    53,
+    53
+   ],
+   "axis_xy": [
+    2507.3169555388095,
+    2196.0150715900527
+   ],
+   "toward_axis_is_reversed": true,
+   "label_tif": "PHerc0343P-20250905172054-2.215um-0.4m-111keV-volume-20260304131111-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250905172054-1_b2_w1",
+   "scroll": "PHerc0343P",
+   "seg": "20250905172054-1_b2",
+   "crop": [
+    81,
+    34,
+    53,
+    53
+   ],
+   "axis_xy": [
+    2472.530128103748,
+    2216.0012652222044
+   ],
+   "toward_axis_is_reversed": true,
+   "label_tif": "PHerc0343P-20250905172054-2.215um-0.4m-111keV-volume-20260304131111-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250510172639_w0",
+   "scroll": "PHerc0009B",
+   "seg": "20250510172639",
+   "crop": [
+    164,
+    126,
+    53,
+    53
+   ],
+   "axis_xy": [
+    4718.151760861672,
+    4019.048771632579
+   ],
+   "toward_axis_is_reversed": false,
+   "label_tif": "PHerc0009B-20250510172639-2.401um-0.35m-77keV-volume-20250820154339-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250510172639_w1",
+   "scroll": "PHerc0009B",
+   "seg": "20250510172639",
+   "crop": [
+    93,
+    132,
+    53,
+    53
+   ],
+   "axis_xy": [
+    4522.752658020797,
+    4026.9330529267436
+   ],
+   "toward_axis_is_reversed": false,
+   "label_tif": "PHerc0009B-20250510172639-2.401um-0.35m-77keV-volume-20250820154339-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250510172804_w0",
+   "scroll": "PHerc0009B",
+   "seg": "20250510172804",
+   "crop": [
+    60,
+    178,
+    53,
+    53
+   ],
+   "axis_xy": [
+    4645.492867004142,
+    4056.4468058402713
+   ],
+   "toward_axis_is_reversed": true,
+   "label_tif": "PHerc0009B-20250510172804-2.401um-0.35m-77keV-volume-20250820154339-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250510172804_w1",
+   "scroll": "PHerc0009B",
+   "seg": "20250510172804",
+   "crop": [
+    59,
+    81,
+    53,
+    53
+   ],
+   "axis_xy": [
+    4645.492867004142,
+    4056.4468058402713
+   ],
+   "toward_axis_is_reversed": true,
+   "label_tif": "PHerc0009B-20250510172804-2.401um-0.35m-77keV-volume-20250820154339-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250511200236_w0",
+   "scroll": "PHerc0009B",
+   "seg": "20250511200236",
+   "crop": [
+    146,
+    132,
+    53,
+    53
+   ],
+   "axis_xy": [
+    4573.2552118817275,
+    4006.718081482491
+   ],
+   "toward_axis_is_reversed": false,
+   "label_tif": "PHerc0009B-20250511200236-2.401um-0.35m-77keV-volume-20250820154339-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250511200236_w1",
+   "scroll": "PHerc0009B",
+   "seg": "20250511200236",
+   "crop": [
+    27,
+    27,
+    53,
+    53
+   ],
+   "axis_xy": [
+    4516.022711142655,
+    4039.9195647030992
+   ],
+   "toward_axis_is_reversed": false,
+   "label_tif": "PHerc0009B-20250511200236-2.401um-0.35m-77keV-volume-20250820154339-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250919064353-auto_grown_20250918234353791_w0",
+   "scroll": "PHerc0009B",
+   "seg": "20250919064353-auto_grown_20250918234353791",
+   "crop": [
+    99,
+    89,
+    53,
+    53
+   ],
+   "axis_xy": [
+    4656.951710261569,
+    4061.118712273642
+   ],
+   "toward_axis_is_reversed": true,
+   "label_tif": "PHerc0009B-20250919064353-2.401um-0.35m-77keV-volume-20250820154339-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250919064353-auto_grown_20250918234353791_w1",
+   "scroll": "PHerc0009B",
+   "seg": "20250919064353-auto_grown_20250918234353791",
+   "crop": [
+    203,
+    94,
+    53,
+    53
+   ],
+   "axis_xy": [
+    4677.265907329,
+    4013.3350825928796
+   ],
+   "toward_axis_is_reversed": true,
+   "label_tif": "PHerc0009B-20250919064353-2.401um-0.35m-77keV-volume-20250820154339-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250919123506-auto_grown_20250919053506178_inp_hr_w0",
+   "scroll": "PHerc0009B",
+   "seg": "20250919123506-auto_grown_20250919053506178_inp_hr",
+   "crop": [
+    145,
+    61,
+    53,
+    53
+   ],
+   "axis_xy": [
+    4435.462371625793,
+    4152.130647062125
+   ],
+   "toward_axis_is_reversed": false,
+   "label_tif": "PHerc0009B-20250919123506-2.401um-0.35m-77keV-volume-20250820154339-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250919123506-auto_grown_20250919053506178_inp_hr_w1",
+   "scroll": "PHerc0009B",
+   "seg": "20250919123506-auto_grown_20250919053506178_inp_hr",
+   "crop": [
+    238,
+    227,
+    53,
+    53
+   ],
+   "axis_xy": [
+    4702.324775900969,
+    4016.302457466919
+   ],
+   "toward_axis_is_reversed": false,
+   "label_tif": "PHerc0009B-20250919123506-2.401um-0.35m-77keV-volume-20250820154339-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250919124722-auto_grown_20250919054722721_inp_hr_w0",
+   "scroll": "PHerc0009B",
+   "seg": "20250919124722-auto_grown_20250919054722721_inp_hr",
+   "crop": [
+    227,
+    52,
+    53,
+    53
+   ],
+   "axis_xy": [
+    4655.803628601921,
+    4012.652199691687
+   ],
+   "toward_axis_is_reversed": false,
+   "label_tif": "PHerc0009B-20250919124722-2.401um-0.35m-77keV-volume-20250820154339-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250919124722-auto_grown_20250919054722721_inp_hr_w1",
+   "scroll": "PHerc0009B",
+   "seg": "20250919124722-auto_grown_20250919054722721_inp_hr",
+   "crop": [
+    46,
+    33,
+    53,
+    53
+   ],
+   "axis_xy": [
+    4771.739300699301,
+    4255.539020979021
+   ],
+   "toward_axis_is_reversed": false,
+   "label_tif": "PHerc0009B-20250919124722-2.401um-0.35m-77keV-volume-20250820154339-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250919124917-auto_grown_20250919054917419_inp_hr_w0",
+   "scroll": "PHerc0009B",
+   "seg": "20250919124917-auto_grown_20250919054917419_inp_hr",
+   "crop": [
+    291,
+    90,
+    53,
+    53
+   ],
+   "axis_xy": [
+    4571.186632458391,
+    4010.3593184658903
+   ],
+   "toward_axis_is_reversed": false,
+   "label_tif": "PHerc0009B-20250919124917-2.401um-0.35m-77keV-volume-20250820154339-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250919124917-auto_grown_20250919054917419_inp_hr_w1",
+   "scroll": "PHerc0009B",
+   "seg": "20250919124917-auto_grown_20250919054917419_inp_hr",
+   "crop": [
+    80,
+    70,
+    53,
+    53
+   ],
+   "axis_xy": [
+    4611.584424192212,
+    4157.782270091135
+   ],
+   "toward_axis_is_reversed": false,
+   "label_tif": "PHerc0009B-20250919124917-2.401um-0.35m-77keV-volume-20250820154339-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250919130642-auto_grown_20250919060642061_w0",
+   "scroll": "PHerc0009B",
+   "seg": "20250919130642-auto_grown_20250919060642061",
+   "crop": [
+    124,
+    27,
+    53,
+    53
+   ],
+   "axis_xy": [
+    4560.301859863521,
+    4084.499353284867
+   ],
+   "toward_axis_is_reversed": true,
+   "label_tif": "PHerc0009B-20250919130642-2.401um-0.35m-77keV-volume-20250820154339-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250919130642-auto_grown_20250919060642061_w1",
+   "scroll": "PHerc0009B",
+   "seg": "20250919130642-auto_grown_20250919060642061",
+   "crop": [
+    235,
+    145,
+    53,
+    53
+   ],
+   "axis_xy": [
+    4698.039540118012,
+    4017.3830524971104
+   ],
+   "toward_axis_is_reversed": true,
+   "label_tif": "PHerc0009B-20250919130642-2.401um-0.35m-77keV-volume-20250820154339-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250919131352-auto_grown_20250919061352722_inp_hr_w0",
+   "scroll": "PHerc0009B",
+   "seg": "20250919131352-auto_grown_20250919061352722_inp_hr",
+   "crop": [
+    99,
+    135,
+    53,
+    53
+   ],
+   "axis_xy": [
+    4621.286096256685,
+    4127.669117647059
+   ],
+   "toward_axis_is_reversed": true,
+   "label_tif": "PHerc0009B-20250919131352-2.401um-0.35m-77keV-volume-20250820154339-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250919131352-auto_grown_20250919061352722_inp_hr_w1",
+   "scroll": "PHerc0009B",
+   "seg": "20250919131352-auto_grown_20250919061352722_inp_hr",
+   "crop": [
+    197,
+    83,
+    53,
+    53
+   ],
+   "axis_xy": [
+    4525.4770663562285,
+    4025.274970896391
+   ],
+   "toward_axis_is_reversed": true,
+   "label_tif": "PHerc0009B-20250919131352-2.401um-0.35m-77keV-volume-20250820154339-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250919131642-auto_grown_20250919061642215_inp_hr_w0",
+   "scroll": "PHerc0009B",
+   "seg": "20250919131642-auto_grown_20250919061642215_inp_hr",
+   "crop": [
+    201,
+    19,
+    53,
+    53
+   ],
+   "axis_xy": [
+    4686.99281791297,
+    4015.3906693222284
+   ],
+   "toward_axis_is_reversed": true,
+   "label_tif": "PHerc0009B-20250919131642-2.401um-0.35m-77keV-volume-20250820154339-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250919131642-auto_grown_20250919061642215_inp_hr_w1",
+   "scroll": "PHerc0009B",
+   "seg": "20250919131642-auto_grown_20250919061642215_inp_hr",
+   "crop": [
+    192,
+    106,
+    53,
+    53
+   ],
+   "axis_xy": [
+    4702.324775900969,
+    4016.302457466919
+   ],
+   "toward_axis_is_reversed": true,
+   "label_tif": "PHerc0009B-20250919131642-2.401um-0.35m-77keV-volume-20250820154339-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250919132115-auto_grown_20250919062115592_inp_hr_w0",
+   "scroll": "PHerc0009B",
+   "seg": "20250919132115-auto_grown_20250919062115592_inp_hr",
+   "crop": [
+    16,
+    55,
+    53,
+    53
+   ],
+   "axis_xy": [
+    5181.304203277131,
+    4254.239848017098
+   ],
+   "toward_axis_is_reversed": true,
+   "label_tif": "PHerc0009B-20250919132115-2.401um-0.35m-77keV-volume-20250820154339-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250919132115-auto_grown_20250919062115592_inp_hr_w1",
+   "scroll": "PHerc0009B",
+   "seg": "20250919132115-auto_grown_20250919062115592_inp_hr",
+   "crop": [
+    146,
+    219,
+    53,
+    53
+   ],
+   "axis_xy": [
+    4402.644855381697,
+    4103.435751541015
+   ],
+   "toward_axis_is_reversed": true,
+   "label_tif": "PHerc0009B-20250919132115-2.401um-0.35m-77keV-volume-20250820154339-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250919133208-auto_grown_20250919063208154_inp_hr_w0",
+   "scroll": "PHerc0009B",
+   "seg": "20250919133208-auto_grown_20250919063208154_inp_hr",
+   "crop": [
+    140,
+    25,
+    53,
+    53
+   ],
+   "axis_xy": [
+    4433.883774314365,
+    4072.5373927751602
+   ],
+   "toward_axis_is_reversed": true,
+   "label_tif": "PHerc0009B-20250919133208-2.401um-0.35m-77keV-volume-20250820154339-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250919133208-auto_grown_20250919063208154_inp_hr_w1",
+   "scroll": "PHerc0009B",
+   "seg": "20250919133208-auto_grown_20250919063208154_inp_hr",
+   "crop": [
+    65,
+    178,
+    53,
+    53
+   ],
+   "axis_xy": [
+    4620.61894613681,
+    4127.027871798086
+   ],
+   "toward_axis_is_reversed": false,
+   "label_tif": "PHerc0009B-20250919133208-2.401um-0.35m-77keV-volume-20250820154339-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250919135433-auto_grown_20250919065433578_inp_hr_w0",
+   "scroll": "PHerc0009B",
+   "seg": "20250919135433-auto_grown_20250919065433578_inp_hr",
+   "crop": [
+    46,
+    114,
+    53,
+    53
+   ],
+   "axis_xy": [
+    4658.294988561315,
+    4260.522294643242
+   ],
+   "toward_axis_is_reversed": false,
+   "label_tif": "PHerc0009B-20250919135433-2.401um-0.35m-77keV-volume-20250820154339-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250919135433-auto_grown_20250919065433578_inp_hr_w1",
+   "scroll": "PHerc0009B",
+   "seg": "20250919135433-auto_grown_20250919065433578_inp_hr",
+   "crop": [
+    179,
+    268,
+    53,
+    53
+   ],
+   "axis_xy": [
+    4519.754334063073,
+    4044.9213655996687
+   ],
+   "toward_axis_is_reversed": false,
+   "label_tif": "PHerc0009B-20250919135433-2.401um-0.35m-77keV-volume-20250820154339-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250919135915-auto_grown_20250919065915092_inp_hr_w0",
+   "scroll": "PHerc0009B",
+   "seg": "20250919135915-auto_grown_20250919065915092_inp_hr",
+   "crop": [
+    90,
+    157,
+    53,
+    53
+   ],
+   "axis_xy": [
+    4622.253218518203,
+    4062.08338306761
+   ],
+   "toward_axis_is_reversed": true,
+   "label_tif": "PHerc0009B-20250919135915-2.401um-0.35m-77keV-volume-20250820154339-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250919135915-auto_grown_20250919065915092_inp_hr_w1",
+   "scroll": "PHerc0009B",
+   "seg": "20250919135915-auto_grown_20250919065915092_inp_hr",
+   "crop": [
+    256,
+    185,
+    53,
+    53
+   ],
+   "axis_xy": [
+    4574.096493540733,
+    4014.77036646454
+   ],
+   "toward_axis_is_reversed": false,
+   "label_tif": "PHerc0009B-20250919135915-2.401um-0.35m-77keV-volume-20250820154339-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250919140325-auto_grown_20250919070325767_inp_hr_w0",
+   "scroll": "PHerc0009B",
+   "seg": "20250919140325-auto_grown_20250919070325767_inp_hr",
+   "crop": [
+    71,
+    158,
+    53,
+    53
+   ],
+   "axis_xy": [
+    4608.149656485391,
+    4152.68868471153
+   ],
+   "toward_axis_is_reversed": true,
+   "label_tif": "PHerc0009B-20250919140325-2.401um-0.35m-77keV-volume-20250820154339-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20250919140325-auto_grown_20250919070325767_inp_hr_w1",
+   "scroll": "PHerc0009B",
+   "seg": "20250919140325-auto_grown_20250919070325767_inp_hr",
+   "crop": [
+    31,
+    56,
+    53,
+    53
+   ],
+   "axis_xy": [
+    4658.294988561315,
+    4260.522294643242
+   ],
+   "toward_axis_is_reversed": true,
+   "label_tif": "PHerc0009B-20250919140325-2.401um-0.35m-77keV-volume-20250820154339-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20260303000000-w034_2026030317_w1",
+   "scroll": "PHerc0139",
+   "seg": "20260303000000-w034_2026030317",
+   "crop": [
+    147,
+    136,
+    53,
+    53
+   ],
+   "axis_xy": [
+    2967.453445423852,
+    3036.6887675330267
+   ],
+   "toward_axis_is_reversed": true,
+   "label_tif": "PHerc0139-20260303000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20260306000000-w038_2026030608_w0",
+   "scroll": "PHerc0139",
+   "seg": "20260306000000-w038_2026030608",
+   "crop": [
+    103,
+    188,
+    53,
+    53
+   ],
+   "axis_xy": [
+    2970.5811689809475,
+    3053.1494210453475
+   ],
+   "toward_axis_is_reversed": true,
+   "label_tif": "PHerc0139-20260306000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20260306000000-w038_2026030608_w1",
+   "scroll": "PHerc0139",
+   "seg": "20260306000000-w038_2026030608",
+   "crop": [
+    101,
+    128,
+    53,
+    53
+   ],
+   "axis_xy": [
+    2979.555843255115,
+    3057.694879204716
+   ],
+   "toward_axis_is_reversed": true,
+   "label_tif": "PHerc0139-20260306000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20260306000001-w051_2026030600_w0",
+   "scroll": "PHerc0139",
+   "seg": "20260306000001-w051_2026030600",
+   "crop": [
+    308,
+    143,
+    53,
+    53
+   ],
+   "axis_xy": [
+    3173.697343851225,
+    3148.304104264319
+   ],
+   "toward_axis_is_reversed": true,
+   "label_tif": "PHerc0139-20260306000001-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20260306000001-w051_2026030600_w1",
+   "scroll": "PHerc0139",
+   "seg": "20260306000001-w051_2026030600",
+   "crop": [
+    266,
+    222,
+    53,
+    53
+   ],
+   "axis_xy": [
+    3185.992263388636,
+    3102.9842688902263
+   ],
+   "toward_axis_is_reversed": true,
+   "label_tif": "PHerc0139-20260306000001-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20260310000000-w037_2026031015_w1",
+   "scroll": "PHerc0139",
+   "seg": "20260310000000-w037_2026031015",
+   "crop": [
+    114,
+    14,
+    53,
+    53
+   ],
+   "axis_xy": [
+    2987.977409106954,
+    3005.9032827391457
+   ],
+   "toward_axis_is_reversed": true,
+   "label_tif": "PHerc0139-20260310000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20260311000000-w023_202603112281_w0",
+   "scroll": "PHerc0139",
+   "seg": "20260311000000-w023_202603112281",
+   "crop": [
+    128,
+    123,
+    53,
+    53
+   ],
+   "axis_xy": [
+    2990.1054521184783,
+    3070.268946629537
+   ],
+   "toward_axis_is_reversed": true,
+   "label_tif": "PHerc0139-20260311000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20260311000000-w023_202603112281_w1",
+   "scroll": "PHerc0139",
+   "seg": "20260311000000-w023_202603112281",
+   "crop": [
+    226,
+    57,
+    53,
+    53
+   ],
+   "axis_xy": [
+    3110.494085493445,
+    3105.577657257548
+   ],
+   "toward_axis_is_reversed": true,
+   "label_tif": "PHerc0139-20260311000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20260316000000-w036_2026031607_w0",
+   "scroll": "PHerc0139",
+   "seg": "20260316000000-w036_2026031607",
+   "crop": [
+    186,
+    21,
+    53,
+    53
+   ],
+   "axis_xy": [
+    3170.817864952047,
+    3108.054815873222
+   ],
+   "toward_axis_is_reversed": true,
+   "label_tif": "PHerc0139-20260316000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20260318000000-w049_20260318_w0",
+   "scroll": "PHerc0139",
+   "seg": "20260318000000-w049_20260318",
+   "crop": [
+    224,
+    166,
+    53,
+    53
+   ],
+   "axis_xy": [
+    3166.8327110216874,
+    3132.097274081526
+   ],
+   "toward_axis_is_reversed": true,
+   "label_tif": "PHerc0139-20260318000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  },
+  {
+   "w": "20260318000000-w049_20260318_w1",
+   "scroll": "PHerc0139",
+   "seg": "20260318000000-w049_20260318",
+   "crop": [
+    47,
+    294,
+    53,
+    53
+   ],
+   "axis_xy": [
+    2997.007417206028,
+    3063.737326971229
+   ],
+   "toward_axis_is_reversed": true,
+   "label_tif": "PHerc0139-20260318000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif"
+  }
+ ]
+}

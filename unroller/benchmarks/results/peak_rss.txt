@@ -1,0 +1,4 @@
+render: peak RSS (ru_maxrss) and wall time of the whole process: wall_s=75.2 maxrss_MB=3487
+flatten: peak RSS (ru_maxrss) and wall time of the whole process: wall_s=52.5 maxrss_MB=1198
+trace: peak RSS (ru_maxrss) and wall time of the whole process: wall_s=24.6 maxrss_MB=499
+ncc: peak RSS (ru_maxrss) and wall time of the whole process: wall_s=25.8 maxrss_MB=720

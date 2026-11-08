@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "unroller"
+version = "0.2.0"
+description = "Fast pure-Python tracing, flattening and rendering of Herculaneum scroll CT (VC3D tifxyz / OME-Zarr formats)"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+readme = "README.md"
+dependencies = ["numpy", "scipy", "tifffile", "numcodecs", "requests", "numba", "pillow"]
+
+[project.optional-dependencies]
+test = ["pytest", "pynrrd"]
+bk = ["PyMaxflow"]
+bench = ["torch", "libigl==2.6.3", "matplotlib"]
+
+[project.scripts]
+unroller = "unroller.cli:main"
+
+[tool.setuptools]
+packages = ["unroller", "unroller.ws"]

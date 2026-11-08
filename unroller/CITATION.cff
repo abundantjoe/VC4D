@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use unroller, please cite it as below. Please also credit the Vesuvius Challenge and EduceLab for the scroll data."
+title: "unroller: fast pure-Python tracing, flattening and rendering of Herculaneum scroll CT"
+type: software
+authors:
+  - alias: abundantjoe
+version: 0.2.0
+license: MIT
+repository-code: "https://github.com/abundantjoe/vc4d"
+keywords:
+  - Vesuvius Challenge
+  - Herculaneum papyri
+  - virtual unwrapping
+  - volume-cartographer
+  - OME-Zarr
+  - ARAP

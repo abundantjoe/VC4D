@@ -1,0 +1,10 @@
+{
+ "seed": 2100,
+ "p_wrong": 0.05,
+ "chi": 1,
+ "total_ratio": 1.0844400080001864,
+ "informative_ratio": 11.269338802436957,
+ "informative_edges": 334,
+ "decided": true,
+ "pass": true
+}

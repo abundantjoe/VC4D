@@ -1,0 +1,28 @@
+{
+ "machine": "4 vCPU cloud container, CPU only, load ~4-5, nice 5",
+ "data": "public Scroll 1 segment 20230504093154, standardized uint8 OME-Zarr (dl.ash2txt.org), 65 layers, step 1, cold remote streaming",
+ "vc3d": {
+  "source": "ScrollPrize/villa volume-cartographer @ 2144fdd3f321, Release, vc_render_tifxyz -n 65 --slice-step 1 --scale 1 -g 0 --cache-gb 4",
+  "wall_s_seg": 25.9,
+  "wall_s_seg_uv": 23.4,
+  "max_rss_gb": 1.51,
+  "ncc_vs_official_L16_L32_L48": [
+   0.831,
+   0.99,
+   0.896
+  ]
+ },
+ "unroller": {
+  "cmd": "unroller render seg <zarr> out -n 65 --workers 4 --no-tif",
+  "wall_s": 54.5,
+  "render_s": 51.8,
+  "max_rss_gb": 1.58,
+  "fetched_mb": 332.6,
+  "ncc_vs_official_L16_L32_L48_sigma6": [
+   0.919,
+   0.983,
+   0.926
+  ]
+ },
+ "verdict": "VC3D (C++) renders the full segment about 2.2x faster than unroller (pure Python + numba) on the same machine and data. unroller's off-surface layers (L16, L48) agree more closely with the official layers (0.919/0.926 vs 0.831/0.896); at the surface (L32) VC3D agrees more closely (0.990 vs 0.983)."
+}

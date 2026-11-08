@@ -1,0 +1,59 @@
+{
+ "conditions": {
+  "crop_xywh": [
+   384,
+   2024,
+   512,
+   512
+  ],
+  "layers": 65,
+  "numba_threads": 2,
+  "load_avg_start": [
+   15.8251953125,
+   14.09912109375,
+   9.92138671875
+  ]
+ },
+ "positions_s": 5.188254930999847,
+ "valid_frac": 1.0,
+ "unroller_render_remote_cold_s": 9.4031922879999,
+ "remote_stats": {
+  "bytes_fetched": 36284203,
+  "http_requests": 56,
+  "chunks_touched": 48,
+  "level0_uncompressed_bytes": 918069301248,
+  "fetched_fraction_of_level0": 3.9522291999826356e-05
+ },
+ "unroller_render_diskcache_s": 8.68314398199982,
+ "unroller_render_ramcache_s": 5.04689419899978,
+ "cold_eq_warm": true,
+ "block_read_s": 2.2378749089998564,
+ "block_zyx": [
+  643,
+  576,
+  290
+ ],
+ "n_samples": 17039360,
+ "unroller_inmem_t1_s": 0.7419961239997974,
+ "unroller_inmem_t1_Mpts_s": 22.964216993678868,
+ "unroller_inmem_t2_s": 0.9137146339999163,
+ "unroller_inmem_t2_Mpts_s": 18.64844817621862,
+ "unroller_inmem_eq_remote": true,
+ "materialise_positions_s": 1.0702684439997938,
+ "scipy_map_coordinates_s": 4.164377706999858,
+ "scipy_Mpts_s": 4.091694173503696,
+ "scipy_vs_unroller_maxabs": 6.103515625e-05,
+ "scipy_vs_unroller_meanabs": 2.0976342511858093e-06,
+ "torch_grid_sample_t1_s": 2.299035455000194,
+ "torch_t1_Mpts_s": 7.4115255434364595,
+ "torch_grid_sample_t2_s": 2.5858595360000436,
+ "torch_t2_Mpts_s": 6.589437578793419,
+ "torch_vs_unroller_maxabs": 0.0074615478515625,
+ "torch_vs_unroller_meanabs": 0.00017578988627064973,
+ "torch_vs_unroller_frac_gt_0.5": 0.0,
+ "load_avg_end": [
+  14.26123046875,
+  14.01171875,
+  10.22021484375
+ ]
+}

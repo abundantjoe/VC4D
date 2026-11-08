@@ -1,0 +1,56 @@
+{
+ "load_avg_start": [
+  12.1982421875,
+  13.01171875,
+  10.83056640625
+ ],
+ "seed0_C2": {
+  "times_s(first=cold+JIT,then warm)": [
+   3.677256893000049,
+   0.5298679049992643,
+   0.5024699369996597
+  ],
+  "vertices": 2330,
+  "frac_within_2vx_of_official": 0.25278969957081543,
+  "median_dist_vx": 6.527582390101346,
+  "bytes_fetched": 7624750
+ },
+ "seed0_LEGACY": {
+  "times_s(first=cold+JIT,then warm)": [
+   1.0791933660002542,
+   0.4073871049995432,
+   0.3962874769995324
+  ],
+  "vertices": 2848,
+  "frac_within_2vx_of_official": 0.2401685393258427,
+  "median_dist_vx": 6.574218232075076,
+  "bytes_fetched": 1578645
+ },
+ "seed1_C2": {
+  "times_s(first=cold+JIT,then warm)": [
+   1.7440698880000127,
+   0.3868049749999045,
+   0.47025325799950224
+  ],
+  "vertices": 1091,
+  "frac_within_2vx_of_official": 0.40971585701191565,
+  "median_dist_vx": 2.3180603245825218,
+  "bytes_fetched": 5522983
+ },
+ "seed1_LEGACY": {
+  "times_s(first=cold+JIT,then warm)": [
+   0.4127897730004406,
+   0.41509890600082144,
+   0.3442382329994871
+  ],
+  "vertices": 1846,
+  "frac_within_2vx_of_official": 0.39978331527627303,
+  "median_dist_vx": 2.391313902404792,
+  "bytes_fetched": 0
+ },
+ "load_avg_end": [
+  12.3955078125,
+  13.02783203125,
+  10.859375
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "n": 1000,
+ "radius": 1773.6200269505302,
+ "excluded_whole_graph_balls": 0,
+ "tie_share": 0.0,
+ "spearman": 0.9929716049294347,
+ "frac_proxy_gt_2cstar": 0.0,
+ "frac_proxy_below_cstar": 0.0,
+ "median_cstar": 9.503786999999999,
+ "median_proxy": 9.516752764582634,
+ "seed": 2000,
+ "certified": true,
+ "wall_s": 436.33418692600026,
+ "frac_cstar_zero": 0.0,
+ "pass": true
+}

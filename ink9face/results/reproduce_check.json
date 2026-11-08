@@ -1,0 +1,31 @@
+{
+ "description": "eval/reproduce.py run on 2026-11-08 from the public bucket (labels) + the maps bundle, compared with results/face_eval.json",
+ "labels": {
+  "windows_transferred": 99,
+  "gate_passed": 99,
+  "compared_with_eval_labels": 88,
+  "identical_ink_ink_raw_acc": 88,
+  "identical_valid": 53,
+  "valid_differs_only": 35,
+  "max_scored_mask_pixel_share_differing": 0.00057,
+  "note": "valid differs by up to 600 px per window at mesh holes: the evaluation used the renderer's validity mask, the public path uses bilinear validity of the coarse mesh. PHerc0139 reference labels (11 windows) were no longer on disk, so they were transferred and gated but not compared."
+ },
+ "table": {
+  "windows_scored": 88,
+  "note": "PHerc0139 (11 windows, TRACE oracle only) is missing from the maps bundle: its cached maps were deleted from the authors' disk before export",
+  "summary_diffs_vs_reference_same_88_windows": {
+   "tol_1e-9": 125,
+   "tol_1e-4": 3,
+   "tol_1e-3": 1
+  },
+  "only_diff_above_1e-3": "band_scroll_vote/PHerc0500P2:ink9avg/log_ratio_sum 1.1986 vs 1.1975 (sum of 29 log ratios)",
+  "all_counts_identical": true,
+  "identical_truth_windows": "88/88",
+  "max_per_window_metric_diff": 0.000724760696478699,
+  "n_values": 1338,
+  "full_99_with_original_0139_rows": {
+   "tol_1e-4": 3,
+   "tol_1e-3": 1
+  }
+ }
+}

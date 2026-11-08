@@ -1,0 +1,10 @@
+{'nodes': 1000000, 'edges': 10612366, 'wrong_frac': 0.06900138951106662, 'gen_s': 27.696369082000047, 'backend': 'bk'}
+05:02:57 slab 0: 125225 nodes, 44 its, 223.7 s
+05:06:24 slab 1: 125020 nodes, 57 its, 206.2 s
+05:07:47 slab 2: 124899 nodes, 20 its, 83.1 s
+05:10:40 slab 3: 125352 nodes, 41 its, 172.3 s
+05:13:30 slab 4: 125399 nodes, 34 its, 169.8 s
+05:16:54 slab 5: 124909 nodes, 52 its, 204.2 s
+05:19:02 slab 6: 124216 nodes, 31 its, 126.7 s
+05:20:48 slab 7: 124980 nodes, 27 its, 106.2 s
+{'nodes': 1000000, 'edges': 10612366, 'wrong_frac': 0.06900138951106662, 'gen_s': 27.696369082000047, 'backend': 'bk', 'stitched_energy': 918852.4862637222, 'energy': 917424.0790687501, 'certificate': True, 'stopped_by': 'certificate', 'polish_iters': 3, 'slab_s': 1292.1989064349991, 'block_s': 0.0012953850000485545, 'polish_s': 140.9674189110001, 'wall_s': 1440.466441217, 'blocks': 16, 'block_edges': 54, 'slab_all_certified': True, 'scale': 1000000.0, 'quant_err': 2.652850319419861, 'quant_bound': 0.19683560378456116, 'max_node_cap': 537765084, 'acc_polished': np.float64(0.999969), 'truth_E': 917437.4118548632, 'max_rss_gb': 2.7663421630859375}
