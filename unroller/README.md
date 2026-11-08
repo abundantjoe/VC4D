@@ -281,7 +281,7 @@ tests/               unit, regression and perf-equivalence tests (tests/data: 64
 - Code: MIT (see `LICENSE`).
 - `tests/data/scroll1_cube64.npz` is a 64³ crop of Scroll 1 (PHerc. Paris 4). The figures in `docs/figs/` and the
   benchmark results are derived from the same public scroll and its published segment. All of it is Vesuvius
-  Challenge data under CC BY-NC 4.0: credit the Vesuvius Challenge and EduceLab when you reuse it.
+  Challenge data from the EduceLab-Scrolls dataset under CC BY-NC 4.0; cite it as in [../CITATIONS.md](../CITATIONS.md).
 - The ink figures use the 2023 Grand Prize TimeSformer weights (`scrollprize/timesformer_GP_scroll1`, MIT) and the
   GP hand labels of segment `20230531121653` from the Grand Prize winners' repository
   (`younader/Vesuvius-Grandprize-Winner`). Neither is redistributed here.

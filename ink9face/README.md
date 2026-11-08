@@ -268,3 +268,8 @@ villa_pr/   0001-ink-inference-direction-auto.patch  PR_DESCRIPTION.md  (draft, 
 examples/   run_example.sh (regenerates one transferred public label window)
 tests/      test_core.py  test_eval.py
 ```
+
+## Citations and data
+
+Data citations (Vesuvius Challenge CT scans), model credits and licences: [../CITATIONS.md](../CITATIONS.md). The
+scroll data and the figures derived from it are CC BY-NC 4.0; the code is MIT.

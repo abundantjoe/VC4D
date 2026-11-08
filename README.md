@@ -74,11 +74,11 @@ assets/      banner
 
 ## Data
 
-Every figure and test fixture here comes from public Vesuvius Challenge data: Scroll 1 (PHerc. Paris 4) for unroller, and
-the organizers' public meshes and ink outputs of PHerc0500P2, PHerc0814, PHerc0343P, PHerc0009B and PHerc0139
-for ink9face. No CT-derived material from First-Letters-eligible scrolls is included, and no model weights. Data
-derived from the open data falls under its terms (non-commercial use, with attribution). Please credit the Vesuvius
-Challenge and EduceLab for the scroll data.
+Every figure and test fixture here comes from public Vesuvius Challenge data (CC BY-NC 4.0): Scroll 1
+(PHerc. Paris 4, EduceLab-Scrolls) for unroller, and the organizers' public meshes and ink outputs of PHerc0500P2,
+PHerc0814, PHerc0343P, PHerc0009B and PHerc0139 for ink9face. No CT-derived material from First-Letters-eligible
+scrolls is included, and no model weights. Data citations, model credits and licences are in
+[CITATIONS.md](CITATIONS.md).
 
 ## Citation
 
@@ -96,4 +96,4 @@ unroller also has its own [CITATION.cff](unroller/CITATION.cff).
 ## Licence
 
 The code is under the MIT licence ([LICENSE](LICENSE)); each package carries a copy. The scroll data and anything derived
-from it remain under the Vesuvius Challenge open-data terms.
+from it remain under the Vesuvius Challenge open-data terms (CC BY-NC 4.0); see [CITATIONS.md](CITATIONS.md).
