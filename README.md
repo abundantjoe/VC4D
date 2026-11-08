@@ -2,12 +2,33 @@
 
 # VC4D
 
-VC4D holds two small, open, CPU-only Python packages for the Vesuvius Challenge. **[unroller](unroller/)** traces,
-flattens and renders scroll surfaces straight from the public OME-Zarr and TIFF volumes, in the VC3D formats
-(`tifxyz`, `meta.json`, VC OBJ), so its output loads in VC3D and in the community ink models.
-**[ink9face](ink9face/)** settles which face of a sheet an 8-9 µm ink model reads (the layer order). It also maps
-organizer ink labels onto the 9 µm meshes exactly, from geometry alone. Every number below was measured on public
-data, and the scripts and raw results that produced it ship next to the code.
+VC4D holds two open, CPU-only Python packages for the Vesuvius Challenge. Every number below was measured on
+public data, and the scripts, raw results and figures that produced it are in this repository.
+
+## Why use it
+
+**[ink9face](ink9face/): read the right side of the sheet.** A 9 µm ink model sees a stack of layers around the
+traced surface. If the stack is fed in the wrong order, the model reads the back of the sheet and its output is no
+better than chance. villa's ink inference uses the "forward" order by default; on our public test windows that order
+was the wrong one on 97 of 99 windows. ink9face gives a fixed rule that picks the inked face, a check for new meshes,
+and a ready patch for villa. **Effect: +0.10 to +0.26 AUC on held-out data for 6 public 9 µm ink models** (for
+example Reader v2: 0.51 -> 0.77). It also transfers the organizers' 2.2-2.4 µm ink labels onto 9 µm meshes exactly,
+from geometry alone, for training and evaluation.
+
+**[unroller](unroller/): the whole unwrapping pipeline in plain Python.** It traces, flattens, renders and solves
+windings in the VC3D formats (`tifxyz`, `meta.json`, OME-Zarr, VC OBJ), installs with one `pip install` and runs on a
+laptop CPU, streaming only the volume chunks it needs. What it does well, measured:
+* **Flattening (2D unwrapping of the 3D mesh):** about **3x less area distortion** than the 2023 UV map of the same
+  segment, **0 flipped triangles**, and **4-5x faster** than libigl ARAP at equal quality.
+* **Renders that ink models read as well as the official ones:** the 2023 Grand Prize ink model scores unroller's
+  renders at **AUC 0.862 vs 0.860** for the official layers.
+* **Layers away from the surface stay faithful:** agreement with the official layers 16 and 48 is NCC 0.92-0.93.
+* **No build step:** VC3D's C++ tools need a full compile with many system libraries; unroller is pure Python.
+
+Flattening and rendering are different steps. Flattening decides where each point of the curved sheet lands in the
+flat image (less distortion means letters keep their true shape). Rendering samples the CT volume at those points.
+For raw rendering speed the C++ VC3D renderer is faster, and we show that comparison openly below; unroller's value
+is the complete, easy-to-run pipeline and its flattening and ink-ready output.
 
 ## Measured results
 
@@ -21,16 +42,39 @@ data, and the scripts and raw results that produced it ship next to the code.
 | Face / layer order (ink9face) | Reading the correct face raises held-out AUC by **+0.10 to +0.26** across **6 public 9 µm models** | renderer-default (native) order on the same windows. Per-model mesh-bootstrap 95 % CIs, for example ink_9um +0.099 [+0.069, +0.129] and Reader v2 +0.260 [+0.189, +0.324]. Each model is excluded on the segments it was trained on |
 | Face rule (ink9face) | The fixed `anti_normal` rule picks the inked face on **97/99** windows | TRACE oracle on 5 public scrolls. Against clean-model truth: 41/43 windows. The native order picks it on 2/99 and the toward-axis rule on 62/99 |
 
-**VC3D comparison** (same machine, same public Scroll 1 segment and uint8 zarr, 65 layers, cold streaming;
-[`render_full_segment.json`](unroller/benchmarks/results/vc3d_h2h/render_full_segment.json)): the C++
-`vc_render_tifxyz` (villa @ 2144fdd) renders the full segment in 23-26 s, unroller in 52 s with 4 workers, so
-**VC3D is about 2.2x faster at rendering**. Peak memory is about the same (1.5 GB vs 1.6 GB). Agreement with the
-official layers: VC3D is closer at the surface (NCC 0.990 vs 0.983), unroller is closer off the surface
-(L16/L48: 0.919/0.926 vs 0.831/0.896). unroller's case is not raw render speed but a pure-Python, `pip install`
-toolkit that also traces, flattens (ARAP), solves windings and feeds the ink models correctly.
+### How it compares with VC3D
+
+Same 4-vCPU machine, same public Scroll 1 segment and uint8 zarr, 65 layers, cold streaming
+([raw numbers](unroller/benchmarks/results/vc3d_h2h/render_full_segment.json)):
+
+| | VC3D `vc_render_tifxyz` (C++) | unroller (Python) |
+|---|---|---|
+| full-segment render time | **23-26 s** | 52 s (4 workers) |
+| peak memory | 1.5 GB | 1.6 GB |
+| agreement with official layer 32 (surface), NCC | **0.990** | 0.983 |
+| agreement with official layers 16 / 48 (off surface), NCC | 0.831 / 0.896 | **0.919 / 0.926** |
+| install | C++ build (cmake, Qt, OpenCV, Ceres, ...) | **`pip install`** |
+| ARAP flattening, winding solver, ink-face rule in the same package | no | **yes** |
+
+![unroller vs VC3D](unroller/docs/figs/vc3d_h2h.png)
 
 The conditions, caveats and negative results are in each package README:
 [unroller/README.md](unroller/README.md) and [ink9face/README.md](ink9face/README.md).
+
+## Figures
+
+All figures are made from public data by the scripts in this repository.
+
+| | |
+|---|---|
+| ![face AUC per window](ink9face/figs/fig1_face_auc_per_window.png) | ![face rule accuracy](ink9face/figs/fig2_face_rule_accuracy.png) |
+| ink9face: AUC per window, wrong face vs correct face | ink9face: how often each rule picks the inked face |
+| ![example window](ink9face/figs/fig3_example_window_PHerc0500P2.png) | ![depth sweep](ink9face/figs/fig4_depth_sweep_PHerc0500P2.png) |
+| ink9face: one public window read from both faces | ink9face: accuracy vs depth offset |
+| ![flatten distortion](unroller/docs/figs/flatten_distortion.png) | ![render comparison](unroller/docs/figs/render_comparison.png) |
+| unroller: flattening distortion vs the 2023 UV map and libigl | unroller: rendered layers vs the official layers |
+| ![ink on unroller renders](unroller/docs/figs/ink_gp_labelled_auc.png) | ![timing](unroller/docs/figs/timing.png) |
+| unroller: Grand Prize ink model on unroller vs official renders | unroller: render kernel timing |
 
 ## Quick start
 
